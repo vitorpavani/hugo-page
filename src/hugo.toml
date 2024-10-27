@@ -5,20 +5,6 @@ theme = 'hugo-theme-relearn'
 
 [params]
   [[params.themeVariant]]
-    auto = []
-    identifier = 'relearn-auto'
-    name = 'Relearn Light/Dark'
-
-  [[params.themeVariant]]
-    identifier = 'relearn-light'
-
-  [[params.themeVariant]]
-    identifier = 'relearn-dark'
-
-  [[params.themeVariant]]
-    identifier = 'relearn-bright'
-
-  [[params.themeVariant]]
     auto = ['zen-light', 'zen-dark']
     identifier = 'zen-auto'
     name = 'Zen Light/Dark'
@@ -28,14 +14,3 @@ theme = 'hugo-theme-relearn'
 
   [[params.themeVariant]]
     identifier = 'zen-dark'
-
-  [[params.themeVariant]]
-    auto = ['learn', 'neon']
-    identifier = 'retro-auto'
-    name = 'Retro Learn/Neon'
-
-  [[params.themeVariant]]
-    identifier = 'neon'
-
-  [[params.themeVariant]]
-    identifier = 'learn'
