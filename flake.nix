@@ -10,9 +10,9 @@
         pkgs = (import (inputs.nixpkgs) { inherit system; });
       in {
         devShell = pkgs.mkShell {
-          buildInputs=[
-            pkgs.hugo
-            pkgs.go
+          buildInputs= with pkgs; [
+            hugo
+            go
           ];
         };
       }
